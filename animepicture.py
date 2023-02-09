@@ -56,7 +56,6 @@ def get_links_and_download_images():
             print("获取第",w+pageNum,"页第",i,"张结束")
             print("")
         
-        
         print("开始下载页面图片,links=",links)
         links_dict = generate_filepath_and_check_repeat_file(links)
         download(links_dict)
@@ -64,7 +63,6 @@ def get_links_and_download_images():
         print("")
         print("")
         print("")
-
         
 def generate_filepath_and_check_repeat_file(links):
     """生成文件名称"""

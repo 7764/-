@@ -180,7 +180,6 @@ def dataChek(file_path):
 			i=i+1
 			print(i,"文件名",file,"检查失败并再次添加到队尾,队列长度为",len(folders))
 
-	
 	print("全部检查完毕,正在重新下载")	
 	
 	download(links)
